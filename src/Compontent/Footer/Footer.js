@@ -1,8 +1,8 @@
-import React from 'react';
-import { Button } from '../Button/Button';
-import './Footer.css';
-import '../../App.js';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Button } from "../Button/Button";
+import "./Footer.css";
+import "../../App.js";
+import { Link } from "react-router-dom";
 import { SiCodepen } from "react-icons/si";
 
 

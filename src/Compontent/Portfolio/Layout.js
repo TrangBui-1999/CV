@@ -1,7 +1,7 @@
-import React from 'react';
-import './Portfolio.css';
-import {Button} from '../Button/Button.js';
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./Portfolio.css";
+import {Button} from "../Button/Button.js";
+import { Link } from "react-router-dom";
 
 function Layout({
     lightBg,
@@ -18,27 +18,27 @@ function Layout({
     return (
         <>
         <div
-        className={lightBg ? 'home__hero-section' : 'home__hero-section darkBg'}
+        className={lightBg ? "home__hero-section" : "home__hero-section darkBg"}
       >
         <div className='container'>
           <div
             className='row home__hero-row'
             style={{
-              display: 'flex',
-              flexDirection: imgStart === 'start' ? 'row-reverse' : 'row'
+              display: "flex",
+              flexDirection: imgStart === "start" ? "row-reverse" : "row"
             }}
           >
             <div className='col'>
               <div className='home__hero-text-wrapper'>
-                <div className={lightText ? 'topline' : 'topline dark'}>{topLine}</div>
-                <h1 className={lightText ? 'heading' : 'heading dark'}>
+                <div className={lightText ? "topline" : "topline dark"}>{topLine}</div>
+                <h1 className={lightText ? "heading" : "heading dark"}>
                   {headline}
                 </h1>
                 <p
                   className={
                     lightTextDesc
-                      ? 'home__hero-subtitle'
-                      : 'home__hero-subtitle dark'
+                      ? "home__hero-subtitle"
+                      : "home__hero-subtitle dark"
                   }
                 >
                   {description}

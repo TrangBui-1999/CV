@@ -1,6 +1,6 @@
-import React from 'react'
-import Layout from '../Portfolio/Layout';
-import {homeObjOne, homeObjTwo} from '../Portfolio/Data';
+import React from "react"
+import Layout from "../Portfolio/Layout";
+import {homeObjOne, homeObjTwo} from "../Portfolio/Data";
 
 
 function Portfolio() {

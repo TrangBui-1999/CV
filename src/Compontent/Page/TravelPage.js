@@ -1,7 +1,7 @@
-import '../../App.css';
-import HeroSection from '../Body/HeroSection';
-import React from 'react'
-import Cards from '../Card/Cards';
+import "../../App.css";
+import HeroSection from "../Body/HeroSection";
+import React from "react"
+import Cards from "../Card/Cards";
 
 function TravelPage() {
     return (

@@ -1,11 +1,11 @@
-import React from 'react';
-import '../Card/Cards.css';
-import CardItem from '../Card/CardItem';
+import React from "react";
+import "../Card/Cards.css";
+import CardItem from "../Card/CardItem";
 
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>All things I have learned !</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>

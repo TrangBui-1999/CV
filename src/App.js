@@ -1,13 +1,13 @@
-import './App.css';
-import React from 'react';
-import Navbar from './Compontent/Navbar/Navbar';
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
-import TravelPage from './Compontent/Page/TravelPage';
-import DashBoard from './Compontent/Page/DashBoard';
-import Blog from './Compontent/Page/Blog';
-import SignUp from './Compontent/Page/SignUp';
-import Portfolio from './Compontent/Page/Portfolio';
-import Footer from './Compontent/Footer/Footer';
+import "./App.css";
+import React from "react";
+import Navbar from "./Compontent/Navbar/Navbar";
+import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
+import TravelPage from "./Compontent/Page/TravelPage";
+import DashBoard from "./Compontent/Page/DashBoard";
+import Blog from "./Compontent/Page/Blog";
+import SignUp from "./Compontent/Page/SignUp";
+import Portfolio from "./Compontent/Page/Portfolio";
+import Footer from "./Compontent/Footer/Footer";
 
 function App() {
   return (
